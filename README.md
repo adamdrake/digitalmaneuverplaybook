@@ -10,4 +10,6 @@ If you find have ideas about topics that should be addressed or find problems, p
 
 If you'd like to contribute to the playbook, please create an issue so that we can flesh out the idea for the contribution before you start working.  This can save you time in the event that the contribution is already addressed elsewhere.  Alternatively, feel free to clone the repository, make your modifications, and send a pull request to be evaluated.
 
+Note that before any pull request can be merged, you must add your name to the [CONTRIBUTORS.md](https://github.com/adamdrake/digitalmaneuverplaybook/CONTRIBUTORS.md) file to serve as your signing of the Developer Certificate of Origin.
+
 More to follow.
