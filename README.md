@@ -18,6 +18,8 @@ It is comprised of two main components:
 * Workforce and culture (do you have qualified people in the right places and do you listen to them?)
 * AI is just Software + Data.  If you can't do both, you can't do AI.
 
+# You can also [skip to the Plays](https://github.com/adamdrake/digitalmaneuverplaybook/tree/master/plays/)
+
 # Contributing
 
 If you find have ideas about topics that should be addressed or find problems, please [create a new issue](https://github.com/adamdrake/digitalmaneuverplaybook/issues).

@@ -13,7 +13,7 @@ Some plays were sourced from other excellent works:
 
 [18F Automated Testing Playbook](https://github.com/18F/automated-testing-playbook)
 
-## Read This First: [Section 0: What is Software Development?](https://github.com/adamdrake/digitalmaneuverplaybook/blob/what-is-software-development/)
+## Read This First: [Section 0: What is Software Development?](https://github.com/adamdrake/digitalmaneuverplaybook/blob/plays/what-is-software-development/)
 
 ## Plays (tentative list)
 
