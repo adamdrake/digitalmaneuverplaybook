@@ -3,19 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://playbook.digitalmaneuver.com/categories.html</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html</loc>
-  </url>
-  
-  <url>
     <loc>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</loc>
   </url>
   
@@ -24,23 +11,19 @@
   </url>
   
   <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://playbook.digitalmaneuver.com/introduction.html</loc>
-  </url>
-  
-  <url>
     <loc>https://playbook.digitalmaneuver.com/plays/03-open-by-default.html</loc>
   </url>
   
   <url>
-    <loc>https://playbook.digitalmaneuver.com/plays.html</loc>
+    <loc>https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html</loc>
   </url>
   
   <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</loc>
+    <loc>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html</loc>
   </url>
   
   <url>
@@ -48,7 +31,28 @@
   </url>
   
   <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html</loc>
+    <loc>https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://playbook.digitalmaneuver.com/categories.html</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://playbook.digitalmaneuver.com/introduction.html</loc>
+  </url>
+  
+  <url>
+    <loc>https://playbook.digitalmaneuver.com/plays.html</loc>
   </url>
   
   <url>
@@ -58,14 +62,6 @@
   
   <url>
     <loc>https://playbook.digitalmaneuver.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://playbook.digitalmaneuver.com/plays/sre-principles.html</loc>
   </url>
   
   <url>
