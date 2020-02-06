@@ -1,5 +1,8 @@
++++
 
-# Introduction
+title = "Introduction"
+
++++
 
 These plays are designed to be used as reference after the higher-level organizational and cultural changes have been made.
 
@@ -13,7 +16,7 @@ Some plays were sourced from other excellent works:
 
 [18F Automated Testing Playbook](https://github.com/18F/automated-testing-playbook)
 
-## Read This First: [Section 0: What is Software Development?](https://github.com/adamdrake/digitalmaneuverplaybook/tree/master/plays/what-is-software-development/)
+## Read This First: [Section 0: What is Software Development?](/what-is-software-development.html)
 
 ## Plays (tentative list)
 

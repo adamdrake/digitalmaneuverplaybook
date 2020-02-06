@@ -1,4 +1,6 @@
-# What is Site Reliability Engineering?
+---
+title: "Implement SRE Principles"
+---
 
 ## Thoughts from an SRE
 

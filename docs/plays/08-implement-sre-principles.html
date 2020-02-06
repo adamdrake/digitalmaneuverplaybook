@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Implement SRE Principles - Digital Maneuver Playbook</title>
+<meta name="description" content="A guide for helping organizations delivery technology to users faster">
+<meta name="generator" content="Hugo 0.53" />
+<link href="https://playbook.digitalmaneuver.comindex.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html">
+<link rel="stylesheet" href="https://playbook.digitalmaneuver.com/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://playbook.digitalmaneuver.com/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://playbook.digitalmaneuver.com/js/bundle.js"></script><style>
+:root {--custom-background-color: darkred;}
+</style>
+<meta property="og:title" content="Implement SRE Principles" />
+<meta property="og:description" content="Thoughts from an SRE  Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.
+ Group related alerts (&ldquo;host xyz down&rdquo;) in a single section with many section titles." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Implement SRE Principles"/>
+<meta name="twitter:description" content="Thoughts from an SRE  Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.
+ Group related alerts (&ldquo;host xyz down&rdquo;) in a single section with many section titles."/>
+
+<meta itemprop="name" content="Implement SRE Principles">
+<meta itemprop="description" content="Thoughts from an SRE  Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.
+ Group related alerts (&ldquo;host xyz down&rdquo;) in a single section with many section titles.">
+
+
+
+<meta itemprop="wordCount" content="301">
+
+
+
+<meta itemprop="keywords" content="" />
+</head>
+<body><div class="container"><header>
+<h1>Digital Maneuver Playbook</h1>
+
+ <span class="version">Version 0.1</span>
+<a href="https://github.com/adamdrake/digitalmaneuverplaybook" class="github"><i class="fab fa-github"></i></a>
+<p class="description">A guide for helping organizations delivery technology to users faster</p>
+
+</header>
+
+<div class="content-container">
+<main><h1>Implement SRE Principles</h1>
+
+
+<h2 id="thoughts-from-an-sre">Thoughts from an SRE</h2>
+
+<ol>
+<li><p>Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.</p></li>
+
+<li><p>Group related alerts (&ldquo;host xyz down&rdquo;) in a single section with many section titles. One for each possible xyz.</p></li>
+
+<li><p>Go ahead and put commandline commands in the runbook, in shell-command or code highlighted boxes (NEVER inside sentences). User defined fields should be delineated with $HOST etc (never <host>) and sample values for the vars given beforehand with sample output afterward. Never use a copyable $ to delineate shell commands. This creates the best possible user experience for people reusing your commands by cut and paste so they can more easily change values and so they know what to expect.</p></li>
+
+<li><p>Link all relevant consoles in very small links (CPU usage in clusters: ym qf ij) including historical links to console views for past problems and how they look.</p></li>
+
+<li><p>Section templates might look like this:</p>
+
+<blockquote>
+<p>1.8. Too many cacheservers are down</p>
+
+<p>1.8.1 Definition. This means that 25% of the hosts (on average) have been down over the past 10 minutes</p>
+
+<p>1.8.2 Severity. Our load balancer will route all requests to surviving hosts and clients will retry on timeout so normally this is not severe (there is only a performance impact). However it could cascade due to RAM exhaustion or a query-of-death or due to a config push of broken software so assess the service right away for these problems.</p>
+
+<p>1.8.2 Remediation &hellip; Rollback or resource scaling or bypassing the cache service on the command line &hellip;</p>
+</blockquote></li>
+</ol>
+
+<p>Google search SRE (williamDafoe on HN)</p>
+<div class="edit-meta">
+
+<br></div><nav class="pagination"><a class="nav nav-prev" href="https://playbook.digitalmaneuver.com/plays/02-hire-and-empower-technologists.html" title="Hire and Empower Technologists"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Hire and Empower Technologists</a>
+<a class="nav nav-next" href="https://playbook.digitalmaneuver.com/plays/03-open-by-default.html" title="Open by Default">Next - Open by Default <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://playbook.digitalmaneuver.com">Home</a></li>
+
+<li class=""><a href="https://playbook.digitalmaneuver.com/introduction.html">Introduction</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html">What is Software Development?</a></li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="https://playbook.digitalmaneuver.com/plays.html">Plays</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html">APIs Everywhere</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html">Certify the Process Not the Product</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html">Go where the work is</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/02-hire-and-empower-technologists.html">Hire and Empower Technologists</a></li>
+<li class="active"><a href="https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html">Implement SRE Principles</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/03-open-by-default.html">Open by Default</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html">Red Team Extensively</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/07-ruthlessly-automate.html">Ruthlessly Automate</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html">Standardize Smartly</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html">Use Safer Programming Techniques</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/sre-principles.html">What is Site Reliability Engineering?</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

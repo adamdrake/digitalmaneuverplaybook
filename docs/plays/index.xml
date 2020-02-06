@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plays on Digital Maneuver Playbook</title>
+    <link>https://playbook.digitalmaneuver.com/plays.html</link>
+    <description>Recent content in Plays on Digital Maneuver Playbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://playbook.digitalmaneuver.com/plays/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>APIs Everywhere</title>
+      <link>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certify the Process Not the Product</title>
+      <link>https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go where the work is</title>
+      <link>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hire and Empower Technologists</title>
+      <link>https://playbook.digitalmaneuver.com/plays/02-hire-and-empower-technologists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/02-hire-and-empower-technologists.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implement SRE Principles</title>
+      <link>https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html</guid>
+      <description>Thoughts from an SRE  Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.
+ Group related alerts (&amp;ldquo;host xyz down&amp;rdquo;) in a single section with many section titles.</description>
+    </item>
+    
+    <item>
+      <title>Open by Default</title>
+      <link>https://playbook.digitalmaneuver.com/plays/03-open-by-default.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/03-open-by-default.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Team Extensively</title>
+      <link>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruthlessly Automate</title>
+      <link>https://playbook.digitalmaneuver.com/plays/07-ruthlessly-automate.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/07-ruthlessly-automate.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Standardize Smartly</title>
+      <link>https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Use Safer Programming Techniques</title>
+      <link>https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Site Reliability Engineering?</title>
+      <link>https://playbook.digitalmaneuver.com/plays/sre-principles.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/sre-principles.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

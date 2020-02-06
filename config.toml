@@ -1,0 +1,13 @@
+baseURL = "https://playbook.digitalmaneuver.com"
+languageCode = "en-us"
+title = "Digital Maneuver Playbook"
+theme = "techdoc"
+publishDir = "docs"
+uglyURLs = true
+
+[params]
+description = "A guide for helping organizations delivery technology to users faster"
+github_repository = "https://github.com/adamdrake/digitalmaneuverplaybook"
+version = "0.1"
+custom_background_color = "darkred"
+menu_style = "open-menu"

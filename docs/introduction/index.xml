@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Digital Maneuver Playbook</title>
+    <link>https://playbook.digitalmaneuver.com/introduction.html</link>
+    <description>Recent content in Introduction on Digital Maneuver Playbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://playbook.digitalmaneuver.com/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is Software Development?</title>
+      <link>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</guid>
+      <description>Topics Most software projects are things being built for the first time. There is a high level of uniqueness in each project. Even if the tools and process is the same, the logic and business process to be mapped and solved is not.
+Small iterations, incremental value, low risk.
+Forecasting, planning, and budgeting software projects. Note, you can only do this if you&amp;rsquo;ve done the same project before. If it&amp;rsquo;s a new domain, estimates and budgets will be incorrect.</description>
+    </item>
+    
+  </channel>
+</rss>
