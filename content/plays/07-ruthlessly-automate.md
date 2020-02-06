@@ -1,4 +1,4 @@
 ---
-title: "Ruthlessly Automate"
+title: "07 - Ruthlessly Automate"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Implement SRE Principles"
+title: "08 - Implement SRE Principles"
 ---
 
 ## Thoughts from an SRE

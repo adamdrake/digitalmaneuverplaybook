@@ -1,4 +1,4 @@
 ---
-title: "Standardize Smartly"
+title: "06 - Standardize Smartly"
 ---
 
