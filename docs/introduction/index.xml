@@ -16,9 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</guid>
-      <description>Topics Most software projects are things being built for the first time. There is a high level of uniqueness in each project. Even if the tools and process is the same, the logic and business process to be mapped and solved is not.
-Small iterations, incremental value, low risk.
-Forecasting, planning, and budgeting software projects. Note, you can only do this if you&amp;rsquo;ve done the same project before. If it&amp;rsquo;s a new domain, estimates and budgets will be incorrect.</description>
+      <description>Introduction Software development is the process by which source code is produced in order to create a program that fulfills some goal. For most organizations, this often means automating something that humans would do manually, though this is not always the case.
+There are some basic principles to consider about software development. Some of the principles address misconceptions, while others address the counterintuitive nature of software development generally. Remember that software development, unlike physical engineering efforts like building bridges or ships, is not constrained by physical reality.</description>
     </item>
     
   </channel>

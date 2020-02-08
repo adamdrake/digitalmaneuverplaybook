@@ -20,9 +20,11 @@ The plays are designed to be used as reference after the higher-level organizati
 
 Some plays were sourced from other excellent works:
 
+[Defense Innovation Board Software Acquisition and Practices (SWAP) Study](https://innovation.defense.gov/software/)
+
 [USDS Digital Services Playbook](https://playbook.cio.gov/)
 
-[techFAR](https://techfarhub.cio.gov/handbook/)
+[TechFAR](https://techfarhub.cio.gov/handbook/)
 
 [Google Site Reliability Engineering Book and Workbook](https://landing.google.com/sre/books/)
 

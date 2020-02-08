@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</guid>
-      <description></description>
+      <description>This is a phrase often used at Defense Digital Services and is something that large enterprises often fail to do. The goal of building good software and digital services should be to place the builders (those who build the systems) as close as possible to the users (the people actually using the system). In other words, cut out all the unhelpful middle-management.
+Unfortunately, in large enterprises or government organizations it is the opposite of this approach that is the status quo.</description>
     </item>
     
     <item>
@@ -102,14 +103,23 @@
     </item>
     
     <item>
+      <title>Measure Progress</title>
+      <link>https://playbook.digitalmaneuver.com/plays/11-measure-progress.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/11-measure-progress.html</guid>
+      <description>There will be two sections here, technical and non-technical.
+Make sure you are measuring progress both from a system perspective (metrics, logging, performance, etc.) and from a user perspective (Usability.gov and the System Usability Survey) for example. Concepts like Net Promoter Score may also be appropriate, though they have their own flaws and caveats.</description>
+    </item>
+    
+    <item>
       <title>What is Software Development?</title>
       <link>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</guid>
-      <description>Topics Most software projects are things being built for the first time. There is a high level of uniqueness in each project. Even if the tools and process is the same, the logic and business process to be mapped and solved is not.
-Small iterations, incremental value, low risk.
-Forecasting, planning, and budgeting software projects. Note, you can only do this if you&amp;rsquo;ve done the same project before. If it&amp;rsquo;s a new domain, estimates and budgets will be incorrect.</description>
+      <description>Introduction Software development is the process by which source code is produced in order to create a program that fulfills some goal. For most organizations, this often means automating something that humans would do manually, though this is not always the case.
+There are some basic principles to consider about software development. Some of the principles address misconceptions, while others address the counterintuitive nature of software development generally. Remember that software development, unlike physical engineering efforts like building bridges or ships, is not constrained by physical reality.</description>
     </item>
     
   </channel>

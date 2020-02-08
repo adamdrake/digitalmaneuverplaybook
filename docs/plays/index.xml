@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</guid>
-      <description></description>
+      <description>This is a phrase often used at Defense Digital Services and is something that large enterprises often fail to do. The goal of building good software and digital services should be to place the builders (those who build the systems) as close as possible to the users (the people actually using the system). In other words, cut out all the unhelpful middle-management.
+Unfortunately, in large enterprises or government organizations it is the opposite of this approach that is the status quo.</description>
     </item>
     
     <item>
@@ -99,6 +100,16 @@
       
       <guid>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Measure Progress</title>
+      <link>https://playbook.digitalmaneuver.com/plays/11-measure-progress.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/11-measure-progress.html</guid>
+      <description>There will be two sections here, technical and non-technical.
+Make sure you are measuring progress both from a system perspective (metrics, logging, performance, etc.) and from a user perspective (Usability.gov and the System Usability Survey) for example. Concepts like Net Promoter Score may also be appropriate, though they have their own flaws and caveats.</description>
     </item>
     
   </channel>
