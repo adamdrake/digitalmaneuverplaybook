@@ -2,6 +2,18 @@
 title: "08 - Implement SRE Principles"
 ---
 
+Site Reliability Engineering (SRE) is basically what modern tech companies call ops.
+
+The practice involves a mix of software development, knowledge of a variety of areas like networking stacks and technologies, in addition to computer hardware and performance.  SRE is keeping the lights on, efficiently, and knowing how to get the power back on when it fails.
+
+Thankfully, because it is such an issue in modern tech companies, Google has done us a favor by writing an entire book on the topic that they make available for free online.
+
+[Site Reliability Engineering](https://landing.google.com/sre/sre-book/toc/index.html) (also available in print from O'Reilly).
+
+It is prudent to go through the book and come up with SRE plans for the software you build.  Make sure there is appropriate and *useful* documentation for how to run the services and fix common errors.  Do not create pointless compliance documentation, but rather straightforward things that developers and operations people will need in order to keep the lights on.
+
+Consider these perspectives below:
+
 ## Thoughts from an SRE
 
 1. Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.
