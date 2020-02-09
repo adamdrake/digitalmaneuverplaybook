@@ -1,0 +1,44 @@
+name: build-hugo-deploy-gh-pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 1
+      
+      - name: fetch-hugo
+        env:
+            HUGO_VERSION: "0.64.0"
+        run: |
+          wget -q -P tmp/ https://github.com/gohugoio/hugo/releases/download/v${{ HUGO_VERSION }}/hugo_extended_$(HUGO_VERSION)_Linux-64bit.tar.gz
+		  tar xf tmp/hugo_extended_${{ HUGO_VERSION }}_Linux-64bit.tar.gz -C tmp/
+		  sudo mv -f tmp/hugo /usr/bin/
+          rm -rf tmp/
+          npm install postcss-cli autoprefixer
+
+      - name: clean-old-site
+        run: rm -rf docs/*
+    
+      - name: build-hugo-site
+        run: hugo --gc --minify -d docs/
+    
+      - name: shrink-images
+        run: find docs/ \(-name '*.png' -o -name '*.jpg' -o -name '*.jpeg'\) -print0 | xargs -0 -P8 -n2 mogrify -strip -thumbnail '1000>'
+
+      - name: deploy-to-gh-pages
+        run: |
+          rm -rf node_modules package-lock.json
+          git config user.email "adrake@gmail.com"
+          git config user.name "Adam via GitHub Actions"
+          git add .
+          git commit -am "site rebuild"
+          git push -f -q https://${{ secrets.TOKEN }}@github.com/adamdrake/digitalmaneuverplaybook.git
