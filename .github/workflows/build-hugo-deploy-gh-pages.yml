@@ -20,8 +20,8 @@ jobs:
             HUGO_VERSION: "0.64.0"
         run: |
           wget -q -P tmp/ https://github.com/gohugoio/hugo/releases/download/v${{ HUGO_VERSION }}/hugo_extended_$(HUGO_VERSION)_Linux-64bit.tar.gz
-		  tar xf tmp/hugo_extended_${{ HUGO_VERSION }}_Linux-64bit.tar.gz -C tmp/
-		  sudo mv -f tmp/hugo /usr/bin/
+          tar xf tmp/hugo_extended_${{ HUGO_VERSION }}_Linux-64bit.tar.gz -C tmp/
+          sudo mv -f tmp/hugo /usr/bin/
           rm -rf tmp/
           npm install postcss-cli autoprefixer
 
