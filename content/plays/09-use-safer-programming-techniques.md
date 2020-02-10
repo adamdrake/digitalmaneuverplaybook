@@ -10,7 +10,7 @@ In addition, languages with consistent formatting like Go, Rust, and Python (via
 
 # Type checking and static analysis
 
-There are a variety of programming techniques that can be used in order to increase the safety and security of the software you build.  For example, Facebook has an [excellent article on Zoncolan](https://dl.acm.org/doi/pdf/10.1145/3338112?download=true), their static analysis tooling.  Static analysis is the analysis of code as it sits in files, versus dynamic analysis that would analyze the code while it is running.
+There are a variety of programming techniques that can be used in order to increase the safety and security of the software you build.  For example, Facebook has an [excellent article on Zoncolan](https://dl.acm.org/doi/pdf/10.1145/3338112?download=true), their static analysis tooling.  Static analysis is the analysis of code as it sits in files, versus dynamic analysis that would analyze the code while it is running.  In this case, Facebook found that static analysis was one of the most helpful methods in finding security vulnerabilities and bugs in their code, even more so than read teaming/white hat hacking.
 
 In order to get maximum use of static analysis techniques, it is beneficial to use a programming language that is statically typed, or to use a dynamic language that allows for type annotations.
 
