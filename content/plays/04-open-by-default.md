@@ -1,5 +1,5 @@
 ---
-title: "03 - Open by Default"
+title: "04 - Open by Default"
 ---
 
 Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.

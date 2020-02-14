@@ -1,6 +1,6 @@
 ---
 
-title: Keep It Simple
+title: 00 - Keep It Simple
 
 ---
 

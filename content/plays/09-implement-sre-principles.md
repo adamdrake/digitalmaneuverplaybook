@@ -1,5 +1,5 @@
 ---
-title: "08 - Implement SRE Principles"
+title: "09 - Implement SRE Principles"
 ---
 
 Site Reliability Engineering (SRE) is basically what modern tech companies call ops.
