@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>04 - Open by Default - Digital Maneuver Playbook</title>
+<meta name="description" content="A guide for helping organizations delivery technology to users faster">
+<meta name="generator" content="Hugo 0.64.1" />
+<link href="https://playbook.digitalmaneuver.comindex.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://playbook.digitalmaneuver.com/plays/04-open-by-default.html">
+<link rel="stylesheet" href="https://playbook.digitalmaneuver.com/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://playbook.digitalmaneuver.com/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://playbook.digitalmaneuver.com/js/bundle.js"></script><style>
+:root {--custom-background-color: darkred;}
+</style>
+<meta property="og:title" content="04 - Open by Default" />
+<meta property="og:description" content="Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.
+Most of the software we use nowadays, including Linux, Docker, Kubernetes, Nginx, most modern programming langauges like Go, Python, Rust, Java, etc. are all open source.
+Although large organizations and especially the Department of Defense have had varying levels of acceptance over the years, resulting in many myths about the use of open source software in DoD, the current messaging is very supportive and clear." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://playbook.digitalmaneuver.com/plays/04-open-by-default.html" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="04 - Open by Default"/>
+<meta name="twitter:description" content="Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.
+Most of the software we use nowadays, including Linux, Docker, Kubernetes, Nginx, most modern programming langauges like Go, Python, Rust, Java, etc. are all open source.
+Although large organizations and especially the Department of Defense have had varying levels of acceptance over the years, resulting in many myths about the use of open source software in DoD, the current messaging is very supportive and clear."/>
+<meta itemprop="name" content="04 - Open by Default">
+<meta itemprop="description" content="Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.
+Most of the software we use nowadays, including Linux, Docker, Kubernetes, Nginx, most modern programming langauges like Go, Python, Rust, Java, etc. are all open source.
+Although large organizations and especially the Department of Defense have had varying levels of acceptance over the years, resulting in many myths about the use of open source software in DoD, the current messaging is very supportive and clear.">
+
+<meta itemprop="wordCount" content="1503">
+
+
+
+<meta itemprop="keywords" content="" /></head>
+<body><div class="container"><header>
+<h1>Digital Maneuver Playbook</h1>
+
+ <span class="version">Version 0.1</span>
+<a href="https://github.com/adamdrake/digitalmaneuverplaybook" class="github"><i class="fab fa-github"></i></a>
+<p class="description">A guide for helping organizations delivery technology to users faster</p>
+
+</header>
+
+<div class="content-container">
+<main><h1>04 - Open by Default</h1>
+<p>Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.</p>
+<p>Most of the software we use nowadays, including Linux, Docker, Kubernetes, Nginx, most modern programming langauges like Go, Python, Rust, Java, etc. are all open source.</p>
+<p>Although large organizations and especially the Department of Defense have had varying levels of acceptance over the years, resulting in many myths about the use of open source software in DoD, the current messaging is very supportive and clear.</p>
+<p>Here are some facts:</p>
+<ol>
+<li>Open-source software is encouraged by the US Government and the Department of Defense</li>
+<li>Open-source software is COTS</li>
+<li>Open-source software does not have any issues with information assurance or security checks simply due to the fact that it is open source</li>
+</ol>
+<p>Consider some of the common myths and misconceptions addressed in the <a href="https://dodcio.defense.gov/Open-Source-Software-FAQ/">DoD CIO&rsquo;s Open Source FAQ</a>:</p>
+<p><strong>Q: Is this related to &ldquo;open source intelligence&rdquo;?</strong></p>
+<p>No. In the Intelligence Community(IC), the term &ldquo;open source&rdquo; typically refers to overt, publicly available sources (as opposed to covert or classified sources).  Thus, Open Source Intelligence (OSINT) is form of intelligence collection management that involves finding, selecting, and acquiring information from publicly available sources and analyzing it to produce actionable intelligence.</p>
+<p>In software, &ldquo;Open Source&rdquo; refers to software where the human-readable source code is available to the users of the software. (see above)</p>
+<p><strong>Q: Isn’t using open source software forbidden by DoD Information Assurance Policy?</strong></p>
+<p>No. This misconception comes from a misinterpretation of DoD Instruction 8500.2, “Information Assurance (IA) Implementation”, Enclosure 4, control DCPD-1.</p>
+<p>The control in question reads:</p>
+<p>DCPD-1 Public Domain Software Controls Binary or machine executable public domain software products and other software products with limited or no warranty such as those commonly known as freeware or shareware are not used in DoD information systems unless they are necessary for mission accomplishment and there are no alternative IT solutions available. Such products are assessed for information assurance impacts, and approved for use by the DAA. The assessment addresses the fact that such software products are difficult or impossible to review, repair, or extend, given that the Government does not have access to the original source code and there is no owner who could make such repairs on behalf of the Government.</p>
+<p>This control is intended to limit the use of certain kinds of “binary or machine executable” software when “the Government does not have access to the original source code”. As clarified in the 2009 DoD CIO Memorandum, this control does not prohibit the use of open source software, since with open source software the government does have access to the original source code.</p>
+<p>In the Desktop Application STIG version 3, release 1 (09 March 2007); in its section 2.4, it clearly states that DCPD-1 does not apply to open source software, for this very reason. The STIG first notes that &ldquo;DoD has clarified policy on the use of open source software to take advantage of the capabilities available in the Open Source community as long as certain prerequisites are met. DoD no longer requires that operating system software be obtained through a valid vendor channel and have a formal support path, if the source code for the operating system is publicly available for review&rdquo;. It notes in particular that three cases for software are acceptable:</p>
+<pre><code>A utility that has publicly available source code is acceptable.
+A commercial product that incorporates open source software is acceptable because the commercial vendor provides a warranty.
+Vendor supported open source software is acceptable.
+</code></pre>
+<p>The DISA STIG also notes &ldquo;4. A utility that comes compiled and has no warranty is not acceptable.&rdquo; Thus, a program must come with either source code or a warranty; if it has neither, then special dispensation is required, since it difficult to review, repair, or extend the program either directly or via someone else.
+General information about OSS</p>
+<p><strong>Q: Is open source software commercial software? Is it COTS?</strong></p>
+<p>Open source software that has at least one non-governmental use, and has been or is available to the public, is commercial software. If it is already available to the public and is used unchanged, it is usually COTS.</p>
+<p>U.S. law governing federal procurement (U.S. Code Title 41, Chapter 7, Section 403) defines &ldquo;commercial item&rdquo; as including &ldquo;Any item, other than real property, that is of a type customarily used by the general public or by non-governmental entities for purposes other than governmental purposes (i.e., it has some non-government use), and (i) Has been sold, leased, or licensed to the general public; or (ii) Has been offered for sale, lease, or license to the general public &hellip;&quot;. Thus, as long as the software has at least one non-governmental use, software released (or offered for release) to the public is a commercial item for procurement purposes.</p>
+<p>Similarly, U.S. Code Title 41, Chapter 7, Section 431 defines the term &ldquo;Commercially available off-the-shelf (COTS) item&rdquo;; software is COTS if it is (a) a &ldquo;commercial item&rdquo;, (b) sold in substantial quantities in the commercial marketplace, and (c) is offered to the Government, without modification, in the same form in which it is sold in the commercial marketplace. Thus, OSS available to the public and used unchanged is normally COTS.</p>
+<p>These definitions in U.S. law govern U.S. acquisition regulations, namely the Federal Acquisition Regulation (FAR) and the Defense Federal Acquisition Regulation Supplement (DFARS). DFARS 252.227-7014 Rights in Noncommercial Computer Software and Noncommercial Computer Software Documentation defines &ldquo;Commercial computer software&rdquo; as &ldquo;software developed or regularly used for non-governmental purposes which: (i) Has been sold, leased, or licensed to the public; (ii) Has been offered for sale, lease, or license to the public; (iii) Has not been offered, sold, leased, or licensed to the public but will be available for commercial sale, lease, or license in time to satisfy the delivery requirements of this contract; or (iv) Satisfies a criterion expressed in paragraph (a)(1)(i), (ii), or (iii) of this clause and would require only minor modification to meet the requirements of this contract.&rdquo;</p>
+<p>There are many other reasons to believe OSS is commercial software:</p>
+<pre><code>OSS is increasingly commercially developed and supported.
+OSS projects typically seek financial gain in the form of improvements. U.S. Code Title 17, section 101 (part of copyright law) explicitly defines the term “financial gain” as including “receipt, or expectation of receipt, of anything of value, including the receipt of other copyrighted works.”
+OSS licenses and projects clearly approve of commercial support
+</code></pre>
+<p><strong>Q: Why is it important to understand that open source software is commercial software?</strong></p>
+<p>It is important to understand that open source software is commercial software, because there are many laws, regulations, policies, and so on regarding commercial software. Failing to understand that open source software is commercial software would result in failing to follow the laws, regulations, policies, and so on regarding commercial software.</p>
+<p>In particular, U.S. law (10 USC 2377) requires a preference for commercial items for procurement of supplies or services. 10 USC 2377 requires that the head of an agency shall ensure that procurement officials in that agency, to the maximum extent practicable:</p>
+<pre><code>&quot;acquire commercial items or nondevelopmental items other than commercial items to meet the needs of the agency;
+require prime contractors and subcontractors at all levels under the agency contracts to incorporate commercial items or nondevelopmental items other than commercial items as components of items supplied to the agency;
+modify requirements in appropriate cases to ensure that the requirements can be met by commercial items or, to the extent that commercial items suitable to meet the agency’s needs are not available, nondevelopmental items other than commercial items;
+state specifications in terms that enable and encourage bidders and offerors to supply commercial items or, to the extent that commercial items suitable to meet the agency’s needs are not available, nondevelopmental items other than commercial items in response to the agency solicitations;
+revise the agency’s procurement policies, practices, and procedures not required by law to reduce any impediments in those policies, practices, and procedures to the acquisition of commercial items; and
+require training of appropriate personnel in the acquisition of commercial items.&quot;
+</code></pre>
+<p>Similarly, it requires preliminary market research to determine &ldquo;whether there are commercial items or, to the extent that commercial items suitable to meet the agency’s needs are not available, nondevelopmental items other than commercial items available&rdquo; that &ldquo;(A) meet the agency’s requirements; (B) could be modified to meet the agency’s requirements; or (C) could meet the agency’s requirements if those requirements were modified to a reasonable extent.&rdquo; This market research should occur &ldquo;before developing new specifications for a procurement by that agency; and before soliciting bids or proposals for a contract in excess of the simplified acquisition threshold.&rdquo;</p>
+<p>An agency that failed to consider open source software, and instead only considered proprietary software, would fail to comply with these laws, because it would unjustifiably exclude a significant part of the commercial market. This is particularly the case where future modifications by the U.S. government may be necessary, since OSS by definition permits modification.</p>
+<div class="edit-meta">
+
+<br></div><nav class="pagination"><a class="nav nav-prev" href="https://playbook.digitalmaneuver.com/plays/03-hire-and-empower-technologists.html" title="03 - Hire and Empower Technologists"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - 03 - Hire and Empower Technologists</a>
+<a class="nav nav-next" href="https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html" title="05 - APIs Everywhere">Next - 05 - APIs Everywhere <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://playbook.digitalmaneuver.com">Home</a></li>
+
+<li class=""><a href="https://playbook.digitalmaneuver.com/introduction.html">Introduction</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html">What is Software Development?</a></li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="https://playbook.digitalmaneuver.com/plays.html">Plays</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/00-keep-it-simple.html">00 - Keep It Simple</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/01-measure-progress.html">01 - Measure Progress</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/02-go-where-the-work-is.html">02 - Go where the work is</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/03-hire-and-empower-technologists.html">03 - Hire and Empower Technologists</a></li>
+<li class="active"><a href="https://playbook.digitalmaneuver.com/plays/04-open-by-default.html">04 - Open by Default</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html">05 - APIs Everywhere</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/06-certify-the-process-not-the-product.html">06 - Certify the Process Not the Product</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/07-standardize-smartly.html">07 - Standardize Smartly</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/08-ruthlessly-automate.html">08 - Ruthlessly Automate</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/09-implement-sre-principles.html">09 - Implement SRE Principles</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/10-use-safer-programming-techniques.html">10 - Use Safer Programming Techniques</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/11-red-team-extensively.html">11 - Red Team Extensively</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>07 - Standardize Smartly - Digital Maneuver Playbook</title>
+<meta name="description" content="A guide for helping organizations delivery technology to users faster">
+<meta name="generator" content="Hugo 0.64.1" />
+<link href="https://playbook.digitalmaneuver.comindex.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://playbook.digitalmaneuver.com/plays/07-standardize-smartly.html">
+<link rel="stylesheet" href="https://playbook.digitalmaneuver.com/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://playbook.digitalmaneuver.com/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://playbook.digitalmaneuver.com/js/bundle.js"></script><style>
+:root {--custom-background-color: darkred;}
+</style>
+<meta property="og:title" content="07 - Standardize Smartly" />
+<meta property="og:description" content="Standards for development are very important because the reduced variation allows teams to execute repeatable processes more quickly. In addition, standardization allows for teams to build and share a common body of knowledge and it decreases the onboarding time for new hires.
+However, standards that are too strict and constrain the solution space unnecessarily lead to sub-optimal solutions to critical business problems.
+These concerns must be balanced by standardizing smartly. In other words, standardize on very basic and high-level things (like all systems my communicate by API) and do not create standards for things that are not actually critical to the solution (like a specific programming language or CI/CD tool)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://playbook.digitalmaneuver.com/plays/07-standardize-smartly.html" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="07 - Standardize Smartly"/>
+<meta name="twitter:description" content="Standards for development are very important because the reduced variation allows teams to execute repeatable processes more quickly. In addition, standardization allows for teams to build and share a common body of knowledge and it decreases the onboarding time for new hires.
+However, standards that are too strict and constrain the solution space unnecessarily lead to sub-optimal solutions to critical business problems.
+These concerns must be balanced by standardizing smartly. In other words, standardize on very basic and high-level things (like all systems my communicate by API) and do not create standards for things that are not actually critical to the solution (like a specific programming language or CI/CD tool)."/>
+<meta itemprop="name" content="07 - Standardize Smartly">
+<meta itemprop="description" content="Standards for development are very important because the reduced variation allows teams to execute repeatable processes more quickly. In addition, standardization allows for teams to build and share a common body of knowledge and it decreases the onboarding time for new hires.
+However, standards that are too strict and constrain the solution space unnecessarily lead to sub-optimal solutions to critical business problems.
+These concerns must be balanced by standardizing smartly. In other words, standardize on very basic and high-level things (like all systems my communicate by API) and do not create standards for things that are not actually critical to the solution (like a specific programming language or CI/CD tool).">
+
+<meta itemprop="wordCount" content="378">
+
+
+
+<meta itemprop="keywords" content="" /></head>
+<body><div class="container"><header>
+<h1>Digital Maneuver Playbook</h1>
+
+ <span class="version">Version 0.1</span>
+<a href="https://github.com/adamdrake/digitalmaneuverplaybook" class="github"><i class="fab fa-github"></i></a>
+<p class="description">A guide for helping organizations delivery technology to users faster</p>
+
+</header>
+
+<div class="content-container">
+<main><h1>07 - Standardize Smartly</h1>
+<p>Standards for development are very important because the reduced variation allows teams to execute repeatable processes more quickly.  In addition, standardization allows for teams to build and share a common body of knowledge and it decreases the onboarding time for new hires.</p>
+<p>However, standards that are too strict and constrain the solution space unnecessarily lead to sub-optimal solutions to critical business problems.</p>
+<p>These concerns must be balanced by standardizing smartly.  In other words, standardize on very basic and high-level things (like all systems my communicate by API) and do not create standards for things that are not actually critical to the solution (like a specific programming language or CI/CD tool).</p>
+<p>This approach of abstract standardization was employed very well by Amazon in their API mandate, and similarly successful companies also standardize at generally the same level of detail.</p>
+<p>Standardizing a process as mentioned previously is a good example of this.  If an effective process is designed and implemented, the particular tool used to fulfill the process requirements is usually not important.</p>
+<p>Large organizations tend to over-standardize in a misguided attempt to maximize repeatability and minimize a variety of risks.  However, overly constraining the solution space for people who are actually building solutions is, in itself, a very big risk.</p>
+<p>Therefore, standardize at the right level of detail and no more.</p>
+<p>Examples of things that usually make sense to standardize in software:</p>
+<ul>
+<li>
+<p>Programming patterns, idioms, style, and formatting for a particular language.  Use the standard approaches of the community wherever possible.</p>
+</li>
+<li>
+<p>High-level development processes like how version control will be used.  For example, is the GitFlow or GitHub Flow process being used?  Does every feature have a new branch?  Is code review required?</p>
+</li>
+<li>
+<p>Architecture patterns.  Example: all systems are only allowed to communicate by well-defined APIs with REST or gRPC.  That is an appropriate level of detail and makes some constraints on the solution space, but is still general enough to allow teams to build appropriately.</p>
+</li>
+<li>
+<p>Data standards.  Example: all data must have a schema that can be used to understand the structure of the data and preserve its integrity.  This can be achieved in a variety of ways, like Protocol Buffers or JSON Schema, but does not mandate that all teams use a particular method of enforcing schemas.</p>
+</li>
+</ul>
+<div class="edit-meta">
+
+<br></div><nav class="pagination"><a class="nav nav-prev" href="https://playbook.digitalmaneuver.com/plays/06-certify-the-process-not-the-product.html" title="06 - Certify the Process Not the Product"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - 06 - Certify the Process Not the Product</a>
+<a class="nav nav-next" href="https://playbook.digitalmaneuver.com/plays/08-ruthlessly-automate.html" title="08 - Ruthlessly Automate">Next - 08 - Ruthlessly Automate <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://playbook.digitalmaneuver.com">Home</a></li>
+
+<li class=""><a href="https://playbook.digitalmaneuver.com/introduction.html">Introduction</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html">What is Software Development?</a></li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="https://playbook.digitalmaneuver.com/plays.html">Plays</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/00-keep-it-simple.html">00 - Keep It Simple</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/01-measure-progress.html">01 - Measure Progress</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/02-go-where-the-work-is.html">02 - Go where the work is</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/03-hire-and-empower-technologists.html">03 - Hire and Empower Technologists</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/04-open-by-default.html">04 - Open by Default</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html">05 - APIs Everywhere</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/06-certify-the-process-not-the-product.html">06 - Certify the Process Not the Product</a></li>
+<li class="active"><a href="https://playbook.digitalmaneuver.com/plays/07-standardize-smartly.html">07 - Standardize Smartly</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/08-ruthlessly-automate.html">08 - Ruthlessly Automate</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/09-implement-sre-principles.html">09 - Implement SRE Principles</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/10-use-safer-programming-techniques.html">10 - Use Safer Programming Techniques</a></li>
+<li class=""><a href="https://playbook.digitalmaneuver.com/plays/11-red-team-extensively.html">11 - Red Team Extensively</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

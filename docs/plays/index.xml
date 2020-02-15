@@ -1,4 +1,141 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Plays on Digital Maneuver Playbook</title><link>https://playbook.digitalmaneuver.com/plays.html</link><description>Recent content in Plays on Digital Maneuver Playbook</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://playbook.digitalmaneuver.com/plays/index.xml" rel="self" type="application/rss+xml"/><item><title>01 - Go where the work is</title><link>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/01-go-where-the-work-is.html</guid><description>This is a phrase often used at Defense Digital Services and is something that large enterprises often fail to do. The goal of building good software and digital services should be to place the builders (those who build the systems) as close as possible to the users (the people actually using the system). In other words, cut out all the unhelpful middle-management.
-Unfortunately, in large enterprises or government organizations it is the opposite of this approach that is the status quo.</description></item><item><title>02 - Hire and Empower Technologists</title><link>https://playbook.digitalmaneuver.com/plays/02-hire-and-empower-technologists.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/02-hire-and-empower-technologists.html</guid><description/></item><item><title>03 - Open by Default</title><link>https://playbook.digitalmaneuver.com/plays/03-open-by-default.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/03-open-by-default.html</guid><description/></item><item><title>04 - Certify the Process Not the Product</title><link>https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/04-certify-the-process-not-the-product.html</guid><description/></item><item><title>05 - APIs Everywhere</title><link>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</guid><description/></item><item><title>06 - Standardize Smartly</title><link>https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/06-standardize-smartly.html</guid><description/></item><item><title>07 - Ruthlessly Automate</title><link>https://playbook.digitalmaneuver.com/plays/07-ruthlessly-automate.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/07-ruthlessly-automate.html</guid><description/></item><item><title>08 - Implement SRE Principles</title><link>https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/08-implement-sre-principles.html</guid><description>Thoughts from an SRE Runbooks go out of date faster than anything. Therefore it is absolutely crucial to have the whole book on a single page and alerts vector to the proper subsection. Also pepper each section with a good set of keywords. This will allow users and newbies to easily search for procedures or related alerts when links invariably break.
-Group related alerts (&amp;ldquo;host xyz down&amp;rdquo;) in a single section with many section titles.</description></item><item><title>09 - Use Safer Programming Techniques</title><link>https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/09-use-safer-programming-techniques.html</guid><description/></item><item><title>10 - Red Team Extensively</title><link>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/10-red-team-extensively.html</guid><description/></item><item><title>11 - Measure Progress</title><link>https://playbook.digitalmaneuver.com/plays/11-measure-progress.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://playbook.digitalmaneuver.com/plays/11-measure-progress.html</guid><description>There will be two sections here, technical and non-technical.
-Make sure you are measuring progress both from a system perspective (metrics, logging, performance, etc.) and from a user perspective (Usability.gov and the System Usability Survey) for example. Concepts like Net Promoter Score may also be appropriate, though they have their own flaws and caveats.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plays on Digital Maneuver Playbook</title>
+    <link>https://playbook.digitalmaneuver.com/plays.html</link>
+    <description>Recent content in Plays on Digital Maneuver Playbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://playbook.digitalmaneuver.com/plays/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>00 - Keep It Simple</title>
+      <link>https://playbook.digitalmaneuver.com/plays/00-keep-it-simple.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/00-keep-it-simple.html</guid>
+      <description>Like the title says, keep it simple.
+Thinking of adding a new governance board, working group, meeting, or other congregation of people? Perhaps it&amp;rsquo;s better to repurpose an existing one and deprioritize other things that group is working on.
+Thinking of building a microservices architecture in order to improve speed of software value delivery? Not so fast! Microservices are usually not the solution! You probably want to improve and simplify the current software development and coordination process you&amp;rsquo;re using.</description>
+    </item>
+    
+    <item>
+      <title>01 - Measure Progress</title>
+      <link>https://playbook.digitalmaneuver.com/plays/01-measure-progress.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/01-measure-progress.html</guid>
+      <description>In order to achieve a goal it is necessary to determine whether or not progress is being made towards that goal and whether or not further progress is worth the additional effort.
+In order to do this, having appropriate metrics is a prerequisite to any change management effort, technical or otherwise.
+It is important that metrics be representative of the actual goal to be achieved and not some poor proxy thereof.</description>
+    </item>
+    
+    <item>
+      <title>02 - Go where the work is</title>
+      <link>https://playbook.digitalmaneuver.com/plays/02-go-where-the-work-is.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/02-go-where-the-work-is.html</guid>
+      <description>This is a phrase often used at Defense Digital Services and is something that large enterprises often fail to do. The goal of building good software and digital services should be to place the builders (those who build the systems) as close as possible to the users (the people actually using the system). In other words, cut out all the unhelpful middle-management.
+Unfortunately, in large enterprises or government organizations it is the opposite of this approach that is the status quo.</description>
+    </item>
+    
+    <item>
+      <title>03 - Hire and Empower Technologists</title>
+      <link>https://playbook.digitalmaneuver.com/plays/03-hire-and-empower-technologists.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/03-hire-and-empower-technologists.html</guid>
+      <description>If you think hiring technologists is hard, it&amp;rsquo;s because you aren&amp;rsquo;t paying market rates.
+Let&amp;rsquo;s say that you are paying market rates but you offer other job perks, like focusing on a mission that someone really cares about.
+In that case, you really need to empower the technologists that do work in your organization. They are there, whether you know it or not. They can help you build speed and technical competency in your organization, if you let them.</description>
+    </item>
+    
+    <item>
+      <title>04 - Open by Default</title>
+      <link>https://playbook.digitalmaneuver.com/plays/04-open-by-default.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/04-open-by-default.html</guid>
+      <description>Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.
+Most of the software we use nowadays, including Linux, Docker, Kubernetes, Nginx, most modern programming langauges like Go, Python, Rust, Java, etc. are all open source.
+Although large organizations and especially the Department of Defense have had varying levels of acceptance over the years, resulting in many myths about the use of open source software in DoD, the current messaging is very supportive and clear.</description>
+    </item>
+    
+    <item>
+      <title>05 - APIs Everywhere</title>
+      <link>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/05-apis-everywhere.html</guid>
+      <description>Of the many smart things that Amazon did in order to increase their speed and scale up their organization, dictating that all systems are only allowed to communicate by API was probably one of the most impactful.
+Steve Yegge described it thusly:
+...one day Jeff Bezos issued a mandate, sometime back around 2002 (give or take a year): * All teams will henceforth expose their data and functionality through service interfaces.</description>
+    </item>
+    
+    <item>
+      <title>06 - Certify the Process Not the Product</title>
+      <link>https://playbook.digitalmaneuver.com/plays/06-certify-the-process-not-the-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/06-certify-the-process-not-the-product.html</guid>
+      <description>In a large organization that produces software, there may be hundreds of teams doing thousands of deployments every single day. Each of these teams needs both the autonomy to operate independently and quickly and also needs to have appropriate constraints on the tools and technologies they are allowed to use. This provides maximum benefit to the organization with an appropriate reduction in risk.
+In order to accomplish this appropriately, focus on certifying or approving the higher level processes themselves rather than the tools used for following those processes.</description>
+    </item>
+    
+    <item>
+      <title>07 - Standardize Smartly</title>
+      <link>https://playbook.digitalmaneuver.com/plays/07-standardize-smartly.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/07-standardize-smartly.html</guid>
+      <description>Standards for development are very important because the reduced variation allows teams to execute repeatable processes more quickly. In addition, standardization allows for teams to build and share a common body of knowledge and it decreases the onboarding time for new hires.
+However, standards that are too strict and constrain the solution space unnecessarily lead to sub-optimal solutions to critical business problems.
+These concerns must be balanced by standardizing smartly. In other words, standardize on very basic and high-level things (like all systems my communicate by API) and do not create standards for things that are not actually critical to the solution (like a specific programming language or CI/CD tool).</description>
+    </item>
+    
+    <item>
+      <title>08 - Ruthlessly Automate</title>
+      <link>https://playbook.digitalmaneuver.com/plays/08-ruthlessly-automate.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/08-ruthlessly-automate.html</guid>
+      <description>Many organizations, especially those that see software development or technology as a cost center rather than a profit center, have a tendency of allocating more people to solving a problem or slow process when the correct answer is to focusing on automating that bottleneck. This is especially true in organizations that also perceive themselves to have a lack of software development talent.
+Automation is helpful not only for ensuring that more work is done in less time and with fewer errors, but also because it helps free up valuable human capacities for other work that cannot be automated.</description>
+    </item>
+    
+    <item>
+      <title>09 - Implement SRE Principles</title>
+      <link>https://playbook.digitalmaneuver.com/plays/09-implement-sre-principles.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/09-implement-sre-principles.html</guid>
+      <description>Site Reliability Engineering (SRE) is basically what modern tech companies call ops.
+The practice involves a mix of software development, knowledge of a variety of areas like networking stacks and technologies, in addition to computer hardware and performance. SRE is keeping the lights on, efficiently, and knowing how to get the power back on when it fails.
+Thankfully, because it is such an issue in modern tech companies, Google has done us a favor by writing an entire book on the topic that they make available for free online.</description>
+    </item>
+    
+    <item>
+      <title>10 - Use Safer Programming Techniques</title>
+      <link>https://playbook.digitalmaneuver.com/plays/10-use-safer-programming-techniques.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/10-use-safer-programming-techniques.html</guid>
+      <description>Coding standards It&amp;rsquo;s good to have consistent code standards and formatting to which everyone in the project adheres. Different kinds of projects require different levels of correctness guarantees, so avoid creating one standard that applies to all projects. In general though, strong and statically typed languages are preferable to weak and dynamically typed languages.
+In addition, languages with consistent formatting like Go, Rust, and Python (via the Black formatter) are often preferable to languages that have more flexibility in formatting but without any significant benefit.</description>
+    </item>
+    
+    <item>
+      <title>11 - Red Team Extensively</title>
+      <link>https://playbook.digitalmaneuver.com/plays/11-red-team-extensively.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://playbook.digitalmaneuver.com/plays/11-red-team-extensively.html</guid>
+      <description>Red teaming, or white hat hacking, is a very valuable tool in the security toolbox. Recently, an effort led by Defense Digital Services resulted in the US Army finding 146 vulnerabilities in public-facing software, including one server that had already been compromised and was running cryptocurrency mining software.
+Do use public and private red teaming of your software. Attack it ruthlessly and address any discovered vulnerabilities. If your software or architecture doesn&amp;rsquo;t permit it to be used while connected to the open internet (e.</description>
+    </item>
+    
+  </channel>
+</rss>
