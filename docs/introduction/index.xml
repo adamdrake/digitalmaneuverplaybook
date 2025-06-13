@@ -2,23 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Digital Maneuver Playbook</title>
-    <link>https://playbook.digitalmaneuver.com/introduction.html</link>
+    <link>http://localhost:33553/introduction.html</link>
     <description>Recent content in Introduction on Digital Maneuver Playbook</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://playbook.digitalmaneuver.com/introduction/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:33553/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Software Development?</title>
-      <link>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</link>
+      <link>http://localhost:33553/introduction/what-is-software-development.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://playbook.digitalmaneuver.com/introduction/what-is-software-development.html</guid>
-      <description>Introduction Software development is the process by which source code is produced in order to create a program that fulfills some goal. For most organizations, this often means automating something that humans would do manually, though this is not always the case.
-There are some basic principles to consider about software development. Some of the principles address misconceptions, while others address the counterintuitive nature of software development generally. Remember that software development, unlike physical engineering efforts like building bridges or ships, is not constrained by physical reality.</description>
+      <guid>http://localhost:33553/introduction/what-is-software-development.html</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Software development is the process by which source code is produced in order to create a program that fulfills some goal.  For most organizations, this often means automating something that humans would do manually, though this is not always the case.&lt;/p&gt;&#xA;&lt;p&gt;There are some basic principles to consider about software development.  Some of the principles address misconceptions, while others address the counterintuitive nature of software development generally.  Remember that software development, unlike physical engineering efforts like building bridges or ships, is not constrained by physical reality.  There is a much higher level of complexity due to this decoupling from physical reality since software can reach unbounded levels of complexity without standard physical limitations.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

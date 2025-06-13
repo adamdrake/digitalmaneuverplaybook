@@ -1,9 +1,12 @@
 baseURL = "https://playbook.digitalmaneuver.com"
 languageCode = "en-us"
 title = "Digital Maneuver Playbook"
-theme = "techdoc"
 publishDir = "docs"
 uglyURLs = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/thingsym/hugo-theme-techdoc"
 
 [params]
 description = "A guide for helping organizations delivery technology to users faster"
