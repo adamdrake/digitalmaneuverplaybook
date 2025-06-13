@@ -2,100 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Digital Maneuver Playbook on Digital Maneuver Playbook</title>
-    <link>http://localhost:33553/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in The Digital Maneuver Playbook on Digital Maneuver Playbook</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:33553/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>00 - Keep It Simple</title>
-      <link>http://localhost:33553/plays/00-keep-it-simple.html</link>
+      <link>http://localhost:1313/plays/00-keep-it-simple.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/00-keep-it-simple.html</guid>
+      <guid>http://localhost:1313/plays/00-keep-it-simple.html</guid>
       <description>&lt;p&gt;Like the title says, keep it simple.&lt;/p&gt;&#xA;&lt;p&gt;Thinking of adding a new governance board, working group, meeting, or other congregation of people?  Perhaps it&amp;rsquo;s better to repurpose an existing one and deprioritize other things that group is working on.&lt;/p&gt;&#xA;&lt;p&gt;Thinking of building a microservices architecture in order to improve speed of software value delivery?  Not so fast!  &lt;a href=&#34;https://adamdrake.com/enough-with-the-microservices.html&#34;&gt;Microservices are usually not the solution&lt;/a&gt;!  You probably want to improve and simplify the current software development and coordination process you&amp;rsquo;re using.  Also, you should always start with a monolith.  After all, if you can&amp;rsquo;t build a well-organized monolith, what makes you think you can handle microservices?&lt;/p&gt;</description>
     </item>
     <item>
       <title>01 - Measure Progress</title>
-      <link>http://localhost:33553/plays/01-measure-progress.html</link>
+      <link>http://localhost:1313/plays/01-measure-progress.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/01-measure-progress.html</guid>
+      <guid>http://localhost:1313/plays/01-measure-progress.html</guid>
       <description>&lt;p&gt;In order to achieve a goal it is necessary to determine whether or not progress is being made towards that goal &lt;strong&gt;and&lt;/strong&gt; whether or not further progress is worth the additional effort.&lt;/p&gt;&#xA;&lt;p&gt;In order to do this, having appropriate metrics is a prerequisite to any change management effort, technical or otherwise.&lt;/p&gt;&#xA;&lt;p&gt;It is important that metrics be representative of the actual goal to be achieved and not some poor proxy thereof.  Focus on creating &lt;strong&gt;few&lt;/strong&gt; metrics to measure in order to determine progress since it is easy to tell competing stories as more metrics are added.&lt;/p&gt;</description>
     </item>
     <item>
       <title>02 - Go where the work is</title>
-      <link>http://localhost:33553/plays/02-go-where-the-work-is.html</link>
+      <link>http://localhost:1313/plays/02-go-where-the-work-is.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/02-go-where-the-work-is.html</guid>
+      <guid>http://localhost:1313/plays/02-go-where-the-work-is.html</guid>
       <description>&lt;p&gt;This is a phrase often used at &lt;a href=&#34;https://dds.mil&#34;&gt;Defense Digital Services&lt;/a&gt; and is something that large enterprises often fail to do.  The goal of building good software and digital services should be to place the &lt;em&gt;builders&lt;/em&gt; (those who build the systems) as close as possible to the &lt;em&gt;users&lt;/em&gt; (the people actually using the system).  In other words, cut out all the unhelpful middle-management.&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately, in large enterprises or government organizations it is the opposite of this approach that is the status quo.  Here&amp;rsquo;s an example of how things can be done badly:&lt;/p&gt;</description>
     </item>
     <item>
       <title>03 - Hire and Empower Technologists</title>
-      <link>http://localhost:33553/plays/03-hire-and-empower-technologists.html</link>
+      <link>http://localhost:1313/plays/03-hire-and-empower-technologists.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/03-hire-and-empower-technologists.html</guid>
+      <guid>http://localhost:1313/plays/03-hire-and-empower-technologists.html</guid>
       <description>&lt;p&gt;If you think hiring technologists is hard, it&amp;rsquo;s because you aren&amp;rsquo;t paying market rates.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s say that you are paying market rates but you offer other job perks, like focusing on a mission that someone really cares about.&lt;/p&gt;&#xA;&lt;p&gt;In that case, you really need to empower the technologists that do work in your organization.  They are there, whether you know it or not.  They can help you build speed and technical competency in your organization, if you let them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>04 - Open by Default</title>
-      <link>http://localhost:33553/plays/04-open-by-default.html</link>
+      <link>http://localhost:1313/plays/04-open-by-default.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/04-open-by-default.html</guid>
+      <guid>http://localhost:1313/plays/04-open-by-default.html</guid>
       <description>&lt;p&gt;Try to use as much open-source software as possible, and to contribute as much as possible back to the open source community.&lt;/p&gt;&#xA;&lt;p&gt;Most of the software we use nowadays, including Linux, Docker, Kubernetes, Nginx, most modern programming langauges like Go, Python, Rust, Java, etc. are all open source.&lt;/p&gt;&#xA;&lt;p&gt;Although large organizations and especially the Department of Defense have had varying levels of acceptance over the years, resulting in many myths about the use of open source software in DoD, the current messaging is very supportive and clear.&lt;/p&gt;</description>
     </item>
     <item>
       <title>05 - APIs Everywhere</title>
-      <link>http://localhost:33553/plays/05-apis-everywhere.html</link>
+      <link>http://localhost:1313/plays/05-apis-everywhere.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/05-apis-everywhere.html</guid>
+      <guid>http://localhost:1313/plays/05-apis-everywhere.html</guid>
       <description>&lt;p&gt;Of the many smart things that Amazon did in order to increase their speed and scale up their organization, dictating that all systems are only allowed to communicate by API was probably one of the most impactful.&lt;/p&gt;&#xA;&lt;p&gt;Steve Yegge described it thusly:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;...one day Jeff Bezos issued a mandate, sometime back around 2002 (give or take a year):&#xA;&#xA;    * All teams will henceforth expose their data and functionality through service interfaces.&#xA;&#xA;    * Teams must communicate with each other through these interfaces.&#xA;&#xA;    * There will be no other form of inter-process communication allowed: no direct linking, no direct reads of another team’s data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.&#xA;&#xA;    * It doesn’t matter what technology they use.&#xA;&#xA;    * All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.&#xA;&#xA;The mandate closed with:&#xA;&#xA;    Anyone who doesn’t do this will be fired.  Thank you; have a nice day!&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;By mandating that systems only communicate by well-defined interfaces, and forbidding the interprocess communication and direct database connections that can often happen as organizations grow, Bezos ensured that the organization was building technology in a way that allowed it to scale to very large internal organizational structure sizes without creating stovepipes or a Big Ball of Mud architecture.&lt;/p&gt;</description>
     </item>
     <item>
       <title>06 - Certify the Process Not the Product</title>
-      <link>http://localhost:33553/plays/06-certify-the-process-not-the-product.html</link>
+      <link>http://localhost:1313/plays/06-certify-the-process-not-the-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/06-certify-the-process-not-the-product.html</guid>
+      <guid>http://localhost:1313/plays/06-certify-the-process-not-the-product.html</guid>
       <description>&lt;p&gt;In a large organization that produces software, there may be hundreds of teams doing thousands of deployments every single day.  Each of these teams needs both the autonomy to operate independently and quickly and also needs to have appropriate constraints on the tools and technologies they are allowed to use.  This provides maximum benefit to the organization with an appropriate reduction in risk.&lt;/p&gt;&#xA;&lt;p&gt;In order to accomplish this appropriately, focus on certifying or approving the higher level processes themselves rather than the tools used for following those processes.  This is especially true in software development where there can be significant differences in the ease with which a problem can be solved with some tools or architectures rather than others.&lt;/p&gt;</description>
     </item>
     <item>
       <title>07 - Standardize Smartly</title>
-      <link>http://localhost:33553/plays/07-standardize-smartly.html</link>
+      <link>http://localhost:1313/plays/07-standardize-smartly.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/07-standardize-smartly.html</guid>
+      <guid>http://localhost:1313/plays/07-standardize-smartly.html</guid>
       <description>&lt;p&gt;Standards for development are very important because the reduced variation allows teams to execute repeatable processes more quickly.  In addition, standardization allows for teams to build and share a common body of knowledge and it decreases the onboarding time for new hires.&lt;/p&gt;&#xA;&lt;p&gt;However, standards that are too strict and constrain the solution space unnecessarily lead to sub-optimal solutions to critical business problems.&lt;/p&gt;&#xA;&lt;p&gt;These concerns must be balanced by standardizing smartly.  In other words, standardize on very basic and high-level things (like all systems my communicate by API) and do not create standards for things that are not actually critical to the solution (like a specific programming language or CI/CD tool).&lt;/p&gt;</description>
     </item>
     <item>
       <title>08 - Ruthlessly Automate</title>
-      <link>http://localhost:33553/plays/08-ruthlessly-automate.html</link>
+      <link>http://localhost:1313/plays/08-ruthlessly-automate.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/08-ruthlessly-automate.html</guid>
+      <guid>http://localhost:1313/plays/08-ruthlessly-automate.html</guid>
       <description>&lt;p&gt;Many organizations, especially those that see software development or technology as a cost center rather than a profit center, have a tendency of allocating more people to solving a problem or slow process when the correct answer is to focusing on automating that bottleneck.  This is especially true in organizations that also perceive themselves to have a lack of software development talent.&lt;/p&gt;&#xA;&lt;p&gt;Automation is helpful not only for ensuring that more work is done in less time and with fewer errors, but also because it helps free up valuable human capacities for other work that cannot be automated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>09 - Implement SRE Principles</title>
-      <link>http://localhost:33553/plays/09-implement-sre-principles.html</link>
+      <link>http://localhost:1313/plays/09-implement-sre-principles.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/09-implement-sre-principles.html</guid>
+      <guid>http://localhost:1313/plays/09-implement-sre-principles.html</guid>
       <description>&lt;p&gt;Site Reliability Engineering (SRE) is basically what modern tech companies call ops.&lt;/p&gt;&#xA;&lt;p&gt;The practice involves a mix of software development, knowledge of a variety of areas like networking stacks and technologies, in addition to computer hardware and performance.  SRE is keeping the lights on, efficiently, and knowing how to get the power back on when it fails.&lt;/p&gt;&#xA;&lt;p&gt;Thankfully, because it is such an issue in modern tech companies, Google has done us a favor by writing an entire book on the topic that they make available for free online.&lt;/p&gt;</description>
     </item>
     <item>
       <title>10 - Use Safer Programming Techniques</title>
-      <link>http://localhost:33553/plays/10-use-safer-programming-techniques.html</link>
+      <link>http://localhost:1313/plays/10-use-safer-programming-techniques.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/10-use-safer-programming-techniques.html</guid>
+      <guid>http://localhost:1313/plays/10-use-safer-programming-techniques.html</guid>
       <description>&lt;h1 id=&#34;coding-standards&#34;&gt;Coding standards&lt;/h1&gt;&#xA;&lt;p&gt;It&amp;rsquo;s good to have consistent code standards and formatting to which everyone in the project adheres.  Different kinds of projects require different levels of correctness guarantees, so avoid creating one standard that applies to all projects.  In general though, strong and statically typed languages are preferable to weak and dynamically typed languages.&lt;/p&gt;&#xA;&lt;p&gt;In addition, languages with consistent formatting like Go, Rust, and Python (via the Black formatter) are often preferable to languages that have more flexibility in formatting but without any significant benefit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>11 - Red Team Extensively</title>
-      <link>http://localhost:33553/plays/11-red-team-extensively.html</link>
+      <link>http://localhost:1313/plays/11-red-team-extensively.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/plays/11-red-team-extensively.html</guid>
+      <guid>http://localhost:1313/plays/11-red-team-extensively.html</guid>
       <description>&lt;p&gt;Red teaming, or white hat hacking, is a very valuable tool in the security toolbox.  Recently, an effort led by &lt;a href=&#34;https://www.defense.gov/Explore/News/Article/Article/684616/dod-invites-vetted-specialists-to-hack-the-pentagon/&#34;&gt;Defense Digital Services&lt;/a&gt; resulted in the US Army finding &lt;a href=&#34;https://www.forbes.com/sites/daveywinder/2020/01/16/us-army-hacked-by-52-hackers-in-five-weeksheres-why/#1a3770481669&#34;&gt;146 vulnerabilities in public-facing software&lt;/a&gt;, including one server that had already been compromised and was running &lt;a href=&#34;https://www.zdnet.com/article/bug-hunter-finds-cryptocurrency-mining-botnet-on-dod-network/&#34;&gt;cryptocurrency mining software&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Do use public and private red teaming of your software.  Attack it ruthlessly and address any discovered vulnerabilities.  If your software or architecture doesn&amp;rsquo;t permit it to be used while connected to the open internet (e.g., you assume any connections on the network are safe) then you need to rethink your design.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is Software Development?</title>
-      <link>http://localhost:33553/introduction/what-is-software-development.html</link>
+      <link>http://localhost:1313/introduction/what-is-software-development.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33553/introduction/what-is-software-development.html</guid>
+      <guid>http://localhost:1313/introduction/what-is-software-development.html</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Software development is the process by which source code is produced in order to create a program that fulfills some goal.  For most organizations, this often means automating something that humans would do manually, though this is not always the case.&lt;/p&gt;&#xA;&lt;p&gt;There are some basic principles to consider about software development.  Some of the principles address misconceptions, while others address the counterintuitive nature of software development generally.  Remember that software development, unlike physical engineering efforts like building bridges or ships, is not constrained by physical reality.  There is a much higher level of complexity due to this decoupling from physical reality since software can reach unbounded levels of complexity without standard physical limitations.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:33553/plays/00-keep-it-simple.html</loc>
+    <loc>http://localhost:1313/plays/00-keep-it-simple.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/01-measure-progress.html</loc>
+    <loc>http://localhost:1313/plays/01-measure-progress.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/02-go-where-the-work-is.html</loc>
+    <loc>http://localhost:1313/plays/02-go-where-the-work-is.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/03-hire-and-empower-technologists.html</loc>
+    <loc>http://localhost:1313/plays/03-hire-and-empower-technologists.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/04-open-by-default.html</loc>
+    <loc>http://localhost:1313/plays/04-open-by-default.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/05-apis-everywhere.html</loc>
+    <loc>http://localhost:1313/plays/05-apis-everywhere.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/06-certify-the-process-not-the-product.html</loc>
+    <loc>http://localhost:1313/plays/06-certify-the-process-not-the-product.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/07-standardize-smartly.html</loc>
+    <loc>http://localhost:1313/plays/07-standardize-smartly.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/08-ruthlessly-automate.html</loc>
+    <loc>http://localhost:1313/plays/08-ruthlessly-automate.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/09-implement-sre-principles.html</loc>
+    <loc>http://localhost:1313/plays/09-implement-sre-principles.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/10-use-safer-programming-techniques.html</loc>
+    <loc>http://localhost:1313/plays/10-use-safer-programming-techniques.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays/11-red-team-extensively.html</loc>
+    <loc>http://localhost:1313/plays/11-red-team-extensively.html</loc>
   </url><url>
-    <loc>http://localhost:33553/categories.html</loc>
+    <loc>http://localhost:1313/categories.html</loc>
   </url><url>
-    <loc>http://localhost:33553/introduction.html</loc>
+    <loc>http://localhost:1313/introduction.html</loc>
   </url><url>
-    <loc>http://localhost:33553/plays.html</loc>
+    <loc>http://localhost:1313/plays.html</loc>
   </url><url>
-    <loc>http://localhost:33553/tags.html</loc>
+    <loc>http://localhost:1313/tags.html</loc>
   </url><url>
-    <loc>http://localhost:33553/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:33553/introduction/what-is-software-development.html</loc>
+    <loc>http://localhost:1313/introduction/what-is-software-development.html</loc>
   </url>
 </urlset>
