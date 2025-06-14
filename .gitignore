@@ -1,3 +1,7 @@
+# Ignore generated docs directory (it will be regenerated via GitHub Action #
+############################################################################
+docs/
+
 # Compiled source #
 ###################
 *.com
